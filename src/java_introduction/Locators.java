@@ -13,7 +13,7 @@ public class Locators {
 		System.out.println(driver.getTitle());
 		driver.findElement(By.id("login-username")).sendKeys("tristangraaff");
 		driver.findElement(By.id("login-signin")).click();
-		driver.findElement(By.id("login-passwd")).sendKeys("whyisntit");
+		driver.findElement(By.id("login-passwd")).sendKeys("whyisntitworking");
 		driver.findElement(By.id("login-signin")).click();
 	}
 
