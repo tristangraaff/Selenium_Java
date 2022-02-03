@@ -40,7 +40,7 @@ public class Locators {
 		System.out.println(driver.findElement(By.cssSelector("p.error-msg")).getText());
 		driver.close();
 //		driver.findElement(By.linkText("Dummy text")).click();
-		//test
+		//test again
 		
 	}
 
